@@ -9,3 +9,15 @@
   --grey: #595c6a;
   --light-blue: hsl(210, 36%, 96%);
 }
+
+/* Reset */
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
