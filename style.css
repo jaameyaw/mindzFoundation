@@ -1,0 +1,11 @@
+/* Color palette */
+:root {
+  --orange: #ff6600;
+  --deep-blue: #13304f;
+  --bright-yellow: #f2db4b;
+  --light-gray: #f2f2f2;
+  --white: #fff;
+  --dark-gray: #333;
+  --grey: #595c6a;
+  --light-blue: hsl(210, 36%, 96%);
+}
