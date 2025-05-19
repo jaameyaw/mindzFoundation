@@ -21,3 +21,96 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* Navbar Styling */
+.navbar {
+  background-color: var(--light-gray); 
+  padding: 12px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links .nav-link {
+    text-decoration: none;
+    color: #13304f;
+    font-size: 16px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-links .nav-link:hover {
+  color: var(--orange);
+}
+
+/* .nav-link::after{
+  content: "";
+  position: absolute;
+  background-color: var(--deep-blue);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.4s;
+} */
+
+/* .nav-link:hover::after {
+  width: 100%;
+} */
+
+.nav-link.active {
+  color: var(--orange);
+
+}
+
+
+.donate-btn {
+    background-color: var(--deep-blue);
+    color: var(--orange);
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+.donate-btn:hover {
+  background-color: #0f263d;
+}
+
+
+/* Hamburger Menu */
+.menu-icon {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
