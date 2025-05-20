@@ -281,3 +281,111 @@ body {
     height: 650px;
   }
 }
+
+/* about section */
+
+.about-title {
+	font-size: 1rem;
+	padding-top: 70px;
+	margin-bottom: 2rem;
+}
+
+.about-title h2 {
+	text-align: center;
+	text-transform: capitalize;
+	letter-spacing: 0.20rem;
+  font-weight: 600;
+  color: var(--deep-blue);
+}
+
+.about-title span {
+	padding-left: 14px;
+	color: var(--orange);
+}
+
+.about-container { 
+	width: 90vw;
+	margin: 0 auto;
+	max-width: 1170px;
+  display: flex;
+  padding-top: 2rem;
+}
+
+
+.img-container::before {
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 100%;
+	border: 0.5rem solid var(--deep-blue);
+	box-sizing: border-box;
+	top: -1.5rem;
+	left: -1.5rem;
+	z-index: -1;
+}
+
+.img-container {
+	position: relative;
+
+}
+
+.img-ab {
+  position: relative;
+  width: 120%;
+	display: block;
+
+}
+
+.about-info {
+  margin-left: 10rem;
+}
+
+.vision-info {
+  padding-top: 6em;
+}
+
+.mission-info h3, .vision-info h3{
+  color: var(--deep-blue);
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+}
+
+.mission-info h3::after, .vision-info h3::after {
+  content: "";
+  position: absolute;
+  background-color: var(--orange);
+  height: 3px;
+  width: 32px;
+  left: 0;
+  bottom: -1px;
+}
+
+.mission-info p, .vision-info p {
+  color: var(--deep-blue);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+
+.about-btn, .gallery-btn {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+
+.about-btn a, .gallery-btn a {
+  background-color: var(--deep-blue);
+  color: var(--orange);
+  padding: 12px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.about-btn a:hover, .gallery-btn a:hover {
+  background-color: #0f263d;
+}
+
+
