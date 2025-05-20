@@ -29,7 +29,7 @@ body {
 /* Navbar Styling */
 .navbar {
   background-color: var(--light-gray); 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   position: sticky;
   padding-top: 3px;
   top: 0;
