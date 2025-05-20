@@ -224,3 +224,60 @@ body {
 .hero-image {
   display: none;
 }
+
+@media(min-width: 769px) {
+
+  .hero {
+    flex-direction: row;
+    text-align: left;
+    min-height: 100vh;
+    padding: 2rem;
+    gap: 2rem;
+  
+  }
+
+  .hero-text {
+    max-width: 400px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.7rem;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+  }
+
+  .hero-image {
+    display: block;
+    flex: 1;
+    max-width: 400px;
+    padding: 1rem;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+  }
+}
+
+@media(min-width: 1140px) {
+
+  .hero {
+    gap: 4rem;
+  }
+
+  .hero-text {
+    max-width: 600px;
+
+  }
+
+  .hero-image {
+    max-width: 600px;
+  }
+
+  .hero-image img {
+    height: 650px;
+  }
+}
