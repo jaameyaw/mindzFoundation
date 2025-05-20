@@ -389,3 +389,35 @@ body {
 }
 
 
+@media screen and (min-width: 1024px) and (max-width: 1169px) {
+  .img-ab {
+    width: 130%;
+  }
+} 
+
+@media screen and (max-width: 960px) {
+	.img-ab {
+		width: 100%;
+	}
+
+	.img-container::before {
+		display: none;
+	}
+
+	.about-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about-info {
+		margin-left: .1rem;
+    padding-top: 2rem;
+	}
+
+
+  .vision-info {
+    padding-top: 2rem;
+  }
+
+
+}
