@@ -13,21 +13,25 @@
 /* Reset */
 /* Global Styling */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Navbar Styling */
 .navbar {
   background-color: var(--light-gray); 
-  padding: 12px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   position: sticky;
+  padding-top: 3px;
   top: 0;
   z-index: 100;
 }
@@ -44,7 +48,7 @@ body {
 }
 
 .logo img {
-    width: 100px;
+    width: 140px;
     height: auto;
 }
 
@@ -58,7 +62,7 @@ body {
 
 .nav-links .nav-link {
     text-decoration: none;
-    color: #13304f;
+    color: var(--deep-blue);
     font-size: 16px;
     position: relative;
     transition: color 0.3s ease;
