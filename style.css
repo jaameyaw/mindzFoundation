@@ -613,3 +613,34 @@ body {
   color: var(--deep-blue);
 }
 
+@media (max-width: 900px) {
+  .fact-card {
+    flex: 1 1 45%;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .fact-card {
+    flex: 1 1 100%;
+  }
+
+  .facts-container {
+    justify-content: center;
+  }
+
+  .fact-card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .fact-info h3 {
+    font-size: 26px;
+  }
+
+  .fact-info p {
+    font-size: 16px;
+  }
+}
+
