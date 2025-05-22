@@ -695,3 +695,39 @@ body {
   text-align: start;
   width: 100%;
 }
+
+.get-involved-info, .get-involved-btn{
+  padding: 1.25rem 0;
+}
+
+.get-involved-info h3{
+  color: var(--orange);
+  margin-bottom: 1rem;
+}
+
+.get-involved-info p {
+  color: var(--deep-blue);
+}
+
+.card-image {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.get-involved-btn {
+  margin-bottom: 1rem;
+}
+
+.get-involved-btn a {
+  background-color: var(--deep-blue);
+  color: var(--orange);
+  padding: 12px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.get-involved-btn a:hover {
+  background-color: #0f263d;
+}
