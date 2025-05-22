@@ -650,3 +650,37 @@ body {
   }
 }
 
+/* Get involved section */
+
+.get-involved {
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.get-involved-title {
+  font-size: 1rem;
+	padding-top: 20px;
+	margin-bottom: 1rem;
+}
+
+.get-involved-title h2{
+  letter-spacing: 0.20rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  color: var(--deep-blue);
+}
+
+.get-involved-title span {
+  color: var(--orange);
+}
+
+.get-involved-title p {
+  font-size: 1rem;
+  color: var(--deep-blue);
+  margin-bottom: 3rem;
+  text-align: center;
+  padding-top: .5rem;
+}
