@@ -684,3 +684,14 @@ body {
   text-align: center;
   padding-top: .5rem;
 }
+
+.get-involved-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.get-involved-card {
+  text-align: start;
+  width: 100%;
+}
