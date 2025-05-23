@@ -812,3 +812,37 @@ body {
   font-size: 11px;
   color: #8f989f;
 }
+
+
+/* team section */
+.team {
+  padding: 3rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.team-title {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.team-title h2{
+  letter-spacing: 0.20rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  color: var(--deep-blue);
+}
+
+.team-title span {
+  color: var(--orange);
+}
+
+.team-title p {
+  font-size: 1rem;
+  color: var(--deep-blue);
+  margin-bottom: 3rem;
+  text-align: center;
+  padding-top: .5rem;
+}
