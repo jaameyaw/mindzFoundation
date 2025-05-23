@@ -900,3 +900,32 @@ body {
 
 .team .team-text p {
   margin-bottom: 20px;;
+}
+
+.team .team-social {
+  position: relative;
+  font-size: 0;
+}
+
+.team .team-socials a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 0 3px;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #4a4c70;
+  border: 2px solid var(--orange);
+  transition: .3s;
+}
+
+.team .team-socials a:hover {
+  color: #20212B;
+  background: var(--orange);
+}
+
+.team .team-item:hover .team-text {
+  height: 160px;
+}
+
