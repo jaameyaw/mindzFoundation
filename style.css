@@ -10,6 +10,7 @@
   --light-blue: hsl(210, 36%, 96%);
 }
 
+
 /* Reset */
 /* Global Styling */
 * {
@@ -37,55 +38,41 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .logo img {
-    width: 140px;
-    height: auto;
+  width: 140px;
+  height: auto;
 }
 
 /* Navigation Links */
 .nav-links {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 25px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 
 .nav-links .nav-link {
-    text-decoration: none;
-    color: var(--deep-blue);
-    font-size: 16px;
-    position: relative;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: var(--deep-blue);
+  font-size: 16px;
+  position: relative;
+  transition: color 0.3s ease;
 }
 
 .nav-links .nav-link:hover {
   color: var(--orange);
 }
 
-/* .nav-link::after{
-  content: "";
-  position: absolute;
-  background-color: var(--deep-blue);
-  height: 3px;
-  width: 0;
-  left: 0;
-  bottom: -1px;
-  transition: 0.4s;
-} */
-
-/* .nav-link:hover::after {
-  width: 100%;
-} */
 
 .nav-link.active {
   color: var(--orange);
@@ -94,12 +81,12 @@ body {
 
 
 .donate-btn {
-    background-color: var(--deep-blue);
-    color: var(--orange);
-    padding: 8px 16px;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: var(--deep-blue);
+  color: var(--orange);
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 
 }
 
@@ -110,13 +97,13 @@ body {
 
 /* Hamburger Menu */
 .menu-icon {
-    display: none;
-    font-size: 26px;
-    cursor: pointer;
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
 }
 
 #menu-toggle {
-    display: none;
+  display: none;
 }
 
 
