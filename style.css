@@ -99,9 +99,9 @@ section {
 
 
 /* Hamburger Menu */
-.menu-icon {
+.menu-icon{
   display: none;
-  font-size: 26px;
+  font-size: 25px;
   cursor: pointer;
 
 }
@@ -276,7 +276,6 @@ section {
 .about-title {
 	font-size: 1rem;
 	padding-top: 70px;
-	margin-bottom: 2rem;
 }
 
 .about-title h2 {
