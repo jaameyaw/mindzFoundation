@@ -11,7 +11,6 @@
 }
 
 
-/* Reset */
 /* Global Styling */
 * {
   margin: 0;
@@ -36,7 +35,8 @@ section {
   background-color: var(--light-gray); 
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   position: sticky;
-  padding-top: 3px;
+  padding-top: 4px;
+  padding-bottom: 7px;
   top: 0;
   z-index: 100;
 }
@@ -83,7 +83,6 @@ section {
 
 }
 
-
 .donate-btn {
   background-color: var(--deep-blue);
   color: var(--orange);
@@ -104,12 +103,12 @@ section {
   display: none;
   font-size: 26px;
   cursor: pointer;
+
 }
 
 #menu-toggle {
   display: none;
 }
-
 
 /* Responsive Styling  */
 @media (max-width: 768px) {
