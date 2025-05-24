@@ -220,7 +220,6 @@ section {
   .hero {
     flex-direction: row;
     text-align: left;
-    min-height: 100vh;
     padding: 2rem;
     gap: 2rem;
   
@@ -562,89 +561,88 @@ section {
 
 
 /* facts section */
-
 .facts-section {
-  background-color: var(--light-blue);
-  padding: 60px 15px;
-  width: 100%;
+  background-color: var(--light-gray);
+  padding: 3rem 1rem;
+  margin: auto;
+}
+.facts-title {
+  font-size: 1rem;
+}
+
+.facts-title h2{
+  letter-spacing: 0.20rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  color: var(--deep-blue);
+}
+
+.facts-title span {
+  color: var(--orange);
+}
+
+.facts-title p {
+  font-size: 1rem;
+  color: var(--deep-blue);
   margin-bottom: 2rem;
-  
+  text-align: center;
+  padding-top: .5rem;
 }
 
 .facts-container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   max-width: 1200px;
+  margin: 0 auto;
   margin-top: 3rem;
-  margin-bottom: 3rem;
-  gap: 20px;
 }
 
 .fact-card {
-  flex: 1 1 calc(25% - 20px);
   display: flex;
-  align-items: center;
-  min-width: 220px;
-  background: transparent;
-}
-
-@media (min-width: 1440px) {
-  .fact-card {
-    justify-content: center;
-  }
-}
+} 
 
 .fact-card img {
-  width: 48px;
-  height: 48px;
-  margin-right: 15px;
-
+  width: 43px;
+  height: 43px;
 }
 
+.fact-card-img-container {
+  padding-top: 8px;
+}
+
+.fact-info {
+  padding-left: 1.2rem;
+}
 
 .fact-info h3 {
   margin: 0;
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 600;
   color: var(--deep-blue);
 }
 
 .fact-info p {
   margin: 0;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 400;
   color: var(--deep-blue);
 }
 
-@media (max-width: 900px) {
-  .fact-card {
-    flex: 1 1 45%;
-    margin-bottom: 20px;
+@media (max-width: 426px) {
+  .facts-container {
+    flex-direction: column;
+    gap: 2rem;
   }
-
+  
 }
 
-@media (max-width: 600px) {
-  .fact-card {
-    flex: 1 1 100%;
-  }
-
+@media (min-width: 426px) and (max-width: 768px) {
   .facts-container {
-    justify-content: center;
-  }
-
-  .fact-card img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .fact-info h3 {
-    font-size: 26px;
-  }
-
-  .fact-info p {
-    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
   }
 }
 
