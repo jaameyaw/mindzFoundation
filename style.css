@@ -1097,3 +1097,206 @@ section {
 }
 
 
+/* footer section */
+.footer-section {
+  margin-top: 6rem;
+  background: #f4f5f8;
+  padding: 3rem 1rem 1rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.footer-logo {
+  padding-bottom: 2rem;
+}
+
+.footer-img img {
+  width: 140px;
+  height: auto;
+}
+
+.footer-img p {
+  padding-left: 5px;
+  font-size: 15px;
+  color: black;
+  padding-top: 1rem;
+}
+
+.footer-socials {
+  padding-top: 2rem;
+}
+
+.footer-socials i {
+  font-size: 17px;
+}
+
+.footer-socials a {
+  padding: 8px 14px;
+  text-align: center; 
+  color: var(--deep-blue);
+  border-radius: 0;
+  border: 2px solid var(--orange);
+  box-shadow: inset 0 0 0 0 var(--orange);
+  transition: ease-out 0.3s;
+  -webkit-transition: ease-out 0.3s;
+  -moz-transition: ease-out 0.3s;
+}
+
+.footer-socials a:hover {
+  color: var(--deep-blue);
+  box-shadow: inset 0 0 0 30px var(--orange);
+}
+
+.footer-socials a:focus {
+  box-shadow: none;
+}
+
+.footer-socials a:not(:first-child) {
+  margin-left: 15px;
+}
+
+.footer-links {
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+
+.footer-links h4, .footer-contact h4 {
+  color: var(--deep-blue);
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.footer-links h4::after, .footer-contact h4::after {
+  content: "";
+  position: absolute;
+  background-color: var(--orange);
+  height: 2px;
+  width: 47px;
+  left: 0;
+  bottom: 15px;
+}
+
+.footer-link li {
+  list-style: none;
+}
+
+.footer-quick-link{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: 0.3s;
+  
+}
+
+.footer-quick-link:hover {
+  color: var(--orange);
+  letter-spacing: 1px;
+}
+
+.footer-link li a i{
+  color: var(--deep-blue);
+  padding-right: 10px;
+}
+
+
+.footer-link li:not(:first-child) {
+  padding-top: 8px;
+}
+
+.donate-footer {
+  margin-top: 13px;
+}
+
+.donate-btn-footer {
+  background-color: var(--deep-blue);
+  color: var(--orange);
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.donate-btn-footer:hover {
+  background-color: #0f263d;
+}
+
+.footer-contact {
+  padding-top: 2rem;
+}
+
+.footer-contact i {
+  color: var(--deep-blue);
+}
+
+.footer-contact p:not(:first-child) {
+  padding-top: 8px;
+}
+
+.footer-contact a, .footer-contact span{
+  padding-left: 10px;
+}
+
+.footer-contact a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.footer-contact a:hover {
+  color: var(--orange);
+  letter-spacing: 1px;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(19, 48, 79, 0.2);
+}
+
+.footer-bottom p {
+  color: var(--deep-blue);
+  font-size: 15px;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: var(--orange);
+  position: relative;
+}
+
+.footer-bottom a::after {
+  content: "";
+  position: absolute;
+  background-color: var(--deep-blue);
+  height: 1px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.4s;
+}
+
+.footer-bottom a:hover::after {
+  width: 100%;
+} 
+
+@media (max-width: 426px) {
+  .footer-links, .footer-contact {
+    padding-left: 4px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+}
