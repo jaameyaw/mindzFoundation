@@ -53,7 +53,8 @@ section {
 }
 
 .logo img {
-  width: 140px;
+  padding-top: 4px;
+  width: 130px;
   height: auto;
 }
 
@@ -103,6 +104,8 @@ section {
   display: none;
   font-size: 25px;
   cursor: pointer;
+  color: var(--deep-blue);
+  padding-top: 7px;
 
 }
 
@@ -112,6 +115,12 @@ section {
 
 /* Responsive Styling  */
 @media (max-width: 768px) {
+
+  .logo img {
+    padding-top: 7px;
+    width: 120px;
+    height: auto;
+  }
 
   .menu-icon {
     display: block;
