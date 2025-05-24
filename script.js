@@ -1,5 +1,6 @@
 'strict mode';
 
+//Hides the loading screen immediately after the DOM has fully loaded
 // Activates nav link on section view.
 document.addEventListener("DOMContentLoaded", function () {
   const sections = document.querySelectorAll("section[id]");
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+// Toggles visibility of extra images and updates the button text accordingly
 const toggleBtn = document.getElementById("toggle-gallery");
 const extraImages = document.getElementById("extra-images");
 
