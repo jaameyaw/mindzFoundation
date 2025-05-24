@@ -1,6 +1,15 @@
 'strict mode';
 
 //Hides the loading screen immediately after the DOM has fully loaded
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    const loader = document.getElementById("loader");
+    if (loader) {
+      loader.classList.remove("show");
+    }
+  }, 1);
+});
+
 // Activates nav link on section view.
 document.addEventListener("DOMContentLoaded", function () {
   const sections = document.querySelectorAll("section[id]");
