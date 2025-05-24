@@ -26,5 +26,20 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+const toggleBtn = document.getElementById("toggle-gallery");
+const extraImages = document.getElementById("extra-images");
+
+toggleBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  if (extraImages.classList.contains("show")) {
+    extraImages.classList.remove("show");
+    toggleBtn.textContent = "View More";
+  } else {
+    extraImages.classList.add("show");
+    toggleBtn.textContent = "Show Less";
+  }
+});
+
 
 
