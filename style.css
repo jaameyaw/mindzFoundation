@@ -644,6 +644,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
   }
+  
 }
 
 /* Get involved section */
@@ -937,4 +938,162 @@ section {
 .team .team-item:hover .team-text {
   height: 160px;
 }
+
+
+/* contact section */
+.contact-section {
+  padding: 3rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.contact-title {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-title h2{
+  letter-spacing: 0.20rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  color: var(--deep-blue);
+}
+
+.contact-title span {
+  color: var(--orange);
+}
+
+.contact-title p {
+  font-size: 1rem;
+  color: var(--deep-blue);
+  margin-bottom: 3rem;
+  text-align: center;
+  padding-top: .5rem;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 3rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: url('imgs/blob-scene-haikei.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-img img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact-img {
+  padding-bottom: 3rem;
+}
+
+.contact-item {
+  padding-left: 3rem;
+  padding-top: 2.5rem;
+
+}
+
+@media (min-width: 1140px) {
+  .contact-item {
+    padding-left: 3.5rem;
+    padding-top: 4rem;
+  }
+}
+
+.contact-item h3 {
+  color: var(--deep-blue);
+}
+
+.contact-item small {
+  font-size: 0.8rem;
+  color: var(--grey);
+}
+
+.contact-item h3 {
+  padding-top: 0.5rem;
+}
+
+.contact-name {
+  padding-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-icon {
+  padding-top: 7px;
+}
+
+
+.contact-info h5 {
+  font-size: 0.8rem;
+  color: var(--grey);
+  font-weight: 400;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: black;
+  transition: .3s;
+}
+
+.contact-info a:hover {
+  color: var(--orange);
+  letter-spacing: 1px;
+}
+
+.location-info {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-socials {
+  padding-top: 1.5rem;
+}
+
+.contact-socials h3 {
+  color: var(--deep-blue);
+}
+
+.contact-social {
+  padding: 2rem 0;
+}
+
+.contact-social a:not(:first-child) {
+  padding-left: 2rem;
+}
+
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .contact-item {
+    padding-left: 2rem;
+    padding-top: 3.5rem;
+  }
+  .contact-img img {
+    display: none;
+  }
+} 
+
+
+@media (max-width: 320px) {
+  .contact-container {
+    padding-left: 20px;
+    padding-top: 1.3rem;
+  }
+  .contact-item {
+    padding-left: 0;
+  }
+}
+
 
