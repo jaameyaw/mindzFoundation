@@ -38,11 +38,26 @@
                 <li><a href="#contact" class="nav-link">Contact</a></li>
 
                 <li class="donate-mobile">
-                    <a href="#donate" class="donate-btn">Donate</a>
+                    <a href="" class="donate-btn" id="openDonateModal">Donate</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <!-- Modal Structure for donate button -->
+    <div class="modal" id="donateModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeDonateModal">&times;</span>
+            <h3>Support Our Mission</h3>
+            <p>No amount is too small — every donation brings hope to underserved communities, empower the youth, and bring lasting change. Here's how you can help:</p>
+            <ul>
+                <li><strong>Mobile Money (MoMo):</strong><br> Name: Amanda Gollokumah<br>Number: (233) 20 084 1311<br>Reference: Mindz</li>
+                <li><strong>Bank Transfer:</strong><br> Bank: Cal Bank<br>Acc. No: 1400007321467<br> Name: Bright Osei Karikari</li>
+                <li><strong>Cash/Cheque:</strong><br> Visit the CEO's premises or call us to arrange a pickup.</li>
+                <li><strong>Material Donations:</strong><br> Food, clothes, toiletries, learning supplies, etc. Call (233) 20 084 1311 to donate.</li>
+            </ul>
+        </div>
+    </div>
 
     <!-- hero section -->
     <section class="hero" id="home">
@@ -270,7 +285,7 @@
                 </div>
                 
                 <div class="get-involved-btn">
-                    <a href="" target="_blank">Donate now</a>
+                    <a href="" id="openDonateModal">Donate now</a>
                 </div>
             </div>
 
@@ -500,7 +515,7 @@
                     <li><a href="#contact" class="footer-quick-link"><i class="fas fa-angle-right"></i>Contact</a></li>
 
                     <li class="donate-footer">
-                        <a href="#donate" class="donate-btn-footer">Donate</a>
+                        <a href="" class="donate-btn-footer" id="openDonateModal" >Donate</a>
                     </li>
                 </ul>
             </div>
