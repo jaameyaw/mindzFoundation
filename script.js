@@ -47,17 +47,25 @@ openBtn.addEventListener("click", function (e) {
   document.body.classList.add("modal-open"); 
 });
 
-closeBtn.addEventListener("click", function () {
+function closeModal() {
   modal.style.display = "none";
   document.body.classList.remove("modal-open");
-});
+}
+
+closeBtn.addEventListener("click", closeModal);
 
 window.addEventListener("click", function (e) {
   if (e.target === modal) {
-    modal.style.display = "none";
-    document.body.classList.remove("modal-open"); 
+    closeModal(); 
   }
 });
+
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') {  
+  // Handle esc key to close the modal
+    closeModal();
+  }
+})
 
 
 // Toggles visibility of extra images and updates the button text accordingly
