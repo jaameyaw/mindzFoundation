@@ -41,8 +41,7 @@ const openBtn = document.querySelectorAll(".openDonateModal");
 const closeBtn = document.getElementById("closeDonateModal");
 const modal = document.getElementById("donateModal");
 
-
-
+// Adds event listeners to all buttons that open the modal  
 openBtn.forEach(button => {
   button.addEventListener("click", function (e) {
     e.preventDefault();
@@ -51,7 +50,6 @@ openBtn.forEach(button => {
   });
 
 })
-
 
 function closeModal() {
   modal.style.display = "none";
