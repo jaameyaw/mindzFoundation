@@ -37,15 +37,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // Handles opening and closing of the donate modal dialog
-const openBtn = document.getElementById("openDonateModal");
+const openBtn = document.querySelectorAll(".openDonateModal");
 const closeBtn = document.getElementById("closeDonateModal");
 const modal = document.getElementById("donateModal");
 
-openBtn.addEventListener("click", function (e) {
-  e.preventDefault();
-  modal.style.display = "flex";
-  document.body.classList.add("modal-open"); 
-});
+
+
+openBtn.forEach(button => {
+  button.addEventListener("click", function (e) {
+    e.preventDefault();
+    modal.style.display = "flex";
+    document.body.classList.add("modal-open"); 
+  });
+
+})
+
 
 function closeModal() {
   modal.style.display = "none";
