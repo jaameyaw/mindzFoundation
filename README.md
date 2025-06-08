@@ -1,4 +1,4 @@
-# 🌍 Mindz Impact Foundation Website
+# Mindz Impact Foundation Website
 
 Welcome to the official repository of the **Mindz Impact Foundation** website — a youth-led initiative empowering lives through education, outreach, and social support.
 
